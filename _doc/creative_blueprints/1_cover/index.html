@@ -7,51 +7,41 @@
 .mode-portrait .sl-right { width: 100%; height: 52%; }
 </style>
 <section class="w-full h-full overflow-auto" style="background:#ffffff;">
-  <div class="sl-layout flex h-full">
+  <div class="sl-layout flex h-full" bis_skin_checked="1">
 
-    <!-- Left: Brand column -->
-    <div class="sl-left flex flex-col justify-between p-10" style="background:{{config.brandColor.navbarBackground}};">
-      <div>
-        <!-- Logo + name lockup -->
-        <div class="flex items-center gap-3 mb-8">
-          <img src="{{config.logoUrl}}" alt="{{config.appName}} logo"
-               style="width:36px;height:36px;object-fit:contain;border-radius:6px;" />
-          <span style="font-family:{{config.font.headingFont}},serif; font-size:1.1rem; font-weight:700;
-                       color:{{config.brandColor.primaryForeground}}; letter-spacing:0.02em;">{{config.appName}}</span>
+    
+    <div class="sl-left flex flex-col justify-between p-10" style="background:#3B2314;" bis_skin_checked="1">
+      <div bis_skin_checked="1">
+        
+        <div class="flex items-center gap-3 mb-8" bis_skin_checked="1">
+          <img src="http://localhost:3001/uploads/q1hkpuux/4630/assets/6597f223-8d0c-41bb-a6f0-8899ae3fb4f9_1782376095049_zgtfb2.png" alt="Brew &amp; Co logo" style="width:36px;height:36px;object-fit:contain;border-radius:6px;">
+          <span style="font-family:Playfair Display,serif; font-size:1.1rem; font-weight:700;
+                       color:#FDFAF4; letter-spacing:0.02em;">Brew &amp; Co</span>
         </div>
-        <p class="text-xs tracking-widest uppercase font-semibold mb-6"
-           style="color:{{config.brandColor.accent}}; font-family:{{config.font.textFont}},sans-serif;">
-          Cafe &middot; Coffee &middot; Community
+        <p class="text-xs tracking-widest uppercase font-semibold mb-6" style="color:#D4A853; font-family:Lato,sans-serif;">
+          Cafe · Coffee · Community
         </p>
-        <h1 class="text-5xl font-bold mb-5"
-            style="color:{{config.brandColor.primaryForeground}}; font-family:{{config.font.headingFont}},serif; line-height:1.15;">
-          The Perfect Cup,<br/>Every Time.
+        <h1 class="text-5xl font-bold mb-5" style="color:#FDFAF4; font-family:Playfair Display,serif; line-height:1.15;">
+          The Perfect Cup,<br>Every Time.
         </h1>
-        <p class="text-base leading-relaxed"
-           style="color:{{config.brandColor.card}}; font-family:{{config.font.textFont}},sans-serif; opacity:0.9;">
+        <p class="text-base leading-relaxed" style="color:#F5ECD7; font-family:Lato,sans-serif; opacity:0.9;">
           A warm, artisanal cafe experience — brought online so customers can find you, love you, and walk through your door.
         </p>
       </div>
 
-      <div class="flex flex-col gap-4">
-        <div class="flex items-center gap-3">
-          <span class="inline-block w-8 h-px" style="background:{{config.brandColor.accent}};"></span>
-          <span class="text-xs tracking-wider uppercase font-medium"
-                style="color:{{config.brandColor.accent}}; font-family:{{config.font.textFont}},sans-serif;">Single-Page Landing Site</span>
+      <div class="flex flex-col gap-4" bis_skin_checked="1">
+        <div class="flex items-center gap-3" bis_skin_checked="1">
+          <span class="inline-block w-8 h-px" style="background:#D4A853;"></span>
+          <span class="text-xs tracking-wider uppercase font-medium" style="color:#D4A853; font-family:Lato,sans-serif;">Single-Page Landing Site</span>
         </div>
         <data-attribution />
       </div>
     </div>
 
-    <!-- Right: Hero image -->
-    <div class="sl-right relative overflow-hidden">
-      <img
-        src="http://localhost:8001/common/image-generation?prompt=steaming%20espresso%20cup%20on%20a%20rustic%20wooden%20table%20warm%20golden%20cafe%20interior%20moody%20lighting%20artisan%20coffee%20shop%20bokeh%20background"
-        class="w-full h-full object-cover"
-        alt="Artisan coffee in a warm cafe"
-        style="object-position:center;"
-      />
-      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(59,35,20,0.22),transparent);"></div>
+    
+    <div class="sl-right relative overflow-hidden" bis_skin_checked="1">
+      <img src="http://localhost:8001/common/image-generation?prompt=steaming%20espresso%20cup%20on%20a%20rustic%20wooden%20table%20warm%20golden%20cafe%20interior%20moody%20lighting%20artisan%20coffee%20shop%20bokeh%20background" class="w-full h-full object-cover" alt="Artisan coffee in a warm cafe" style="object-position:center;">
+      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(59,35,20,0.22),transparent);" bis_skin_checked="1"></div>
     </div>
 
   </div>
