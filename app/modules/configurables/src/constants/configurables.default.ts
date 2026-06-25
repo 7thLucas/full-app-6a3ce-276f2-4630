@@ -131,7 +131,7 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "Brew & Co",
+  appName: "Brew & Co 123",
   logoUrl: "",
   brandColor: {
     // Base
@@ -191,7 +191,7 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
   // ── About ────────────────────────────────────────────────────────────────────
   about: {
     heading: "Our Story",
-    body: "Brew & Co was born from a simple belief: great coffee deserves great company. Founded in 2018 by two coffee-obsessed friends, we set out to create a space where specialty coffee meets genuine hospitality.\n\nWe source our beans directly from small-scale farms in Ethiopia, Colombia, and Sumatra, ensuring fair wages for farmers and exceptional quality in every cup. Each batch is roasted in-house to highlight the unique character of every origin.\n\nWhether you're here for your morning ritual or an afternoon escape, we're glad you found us.",
+    body: "Brew & Co 123 was born from a simple belief: great coffee deserves great company. Founded in 2018 by two coffee-obsessed friends, we set out to create a space where specialty coffee meets genuine hospitality.\n\nWe source our beans directly from small-scale farms in Ethiopia, Colombia, and Sumatra, ensuring fair wages for farmers and exceptional quality in every cup. Each batch is roasted in-house to highlight the unique character of every origin.\n\nWhether you're here for your morning ritual or an afternoon escape, we're glad you found us.",
     imageUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=900&q=80",
     imageAlt: "Barista carefully preparing a latte art pour",
   },

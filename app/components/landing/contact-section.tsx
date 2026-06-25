@@ -225,7 +225,7 @@ export function ContactSection() {
             <div className="rounded-2xl overflow-hidden shadow-md h-96 lg:h-auto">
               <iframe
                 src={mapEmbedUrl}
-                title="Brew & Co Location"
+                title="Brew & Co 123 Location"
                 className="w-full h-full min-h-80"
                 style={{ border: 0 }}
                 allowFullScreen

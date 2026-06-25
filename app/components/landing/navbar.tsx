@@ -21,7 +21,7 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const appName = !loading ? (config?.appName ?? "Brew & Co") : "Brew & Co";
+  const appName = !loading ? (config?.appName ?? "Brew & Co 123") : "Brew & Co 123";
   const logoUrl = !loading ? (config?.logoUrl ?? "") : "";
 
   function handleNavClick(event: React.MouseEvent<HTMLAnchorElement>, href: string) {

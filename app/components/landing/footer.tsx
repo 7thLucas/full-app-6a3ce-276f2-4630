@@ -27,7 +27,7 @@ function TwitterIcon() {
 export function Footer() {
   const { config, loading } = useConfigurables();
 
-  const appName      = !loading ? (config?.appName      ?? "Brew & Co") : "Brew & Co";
+  const appName      = !loading ? (config?.appName      ?? "Brew & Co 123") : "Brew & Co 123";
   const footerTagline = !loading ? (config?.footerTagline ?? "") : "";
   const socialLinks  = !loading ? (config?.socialLinks   ?? {}) : {};
   const currentYear  = new Date().getFullYear();
