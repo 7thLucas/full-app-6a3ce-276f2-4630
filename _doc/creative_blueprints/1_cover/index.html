@@ -1,0 +1,48 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 44%; height: 100%; }
+.mode-landscape .sl-right { width: 56%; height: 100%; }
+.mode-portrait .sl-left { width: 100%; height: 48%; }
+.mode-portrait .sl-right { width: 100%; height: 52%; }
+</style>
+<section class="w-full h-full overflow-auto" style="background:#ffffff;">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Brand column -->
+    <div class="sl-left flex flex-col justify-between p-10" style="background:#2c1503;">
+      <div>
+        <p class="text-xs tracking-widest uppercase font-semibold mb-8" style="color:#f59e0b;">
+          Cafe &middot; Coffee &middot; Community
+        </p>
+        <h1 class="text-5xl font-bold leading-tight mb-5" style="color:#ffffff; line-height:1.15;">
+          The Perfect Cup,<br/>Every Time.
+        </h1>
+        <p class="text-base leading-relaxed" style="color:#fde68a; opacity:0.88;">
+          A warm, artisanal cafe experience — brought online so customers can find you, love you, and walk through your door.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-3">
+          <span class="inline-block w-8 h-px" style="background:#f59e0b;"></span>
+          <span class="text-xs tracking-wider uppercase font-medium" style="color:#f59e0b;">Single-Page Landing Site</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Hero image -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="http://localhost:8001/common/image-generation?prompt=steaming%20espresso%20cup%20on%20a%20rustic%20wooden%20table%20warm%20golden%20cafe%20interior%20moody%20lighting%20artisan%20coffee%20shop%20bokeh%20background"
+        class="w-full h-full object-cover"
+        alt="Artisan coffee in a warm cafe"
+        style="object-position: center;"
+      />
+      <!-- Subtle overlay for depth -->
+      <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(44,21,3,0.18), transparent);"></div>
+    </div>
+
+  </div>
+</section>
