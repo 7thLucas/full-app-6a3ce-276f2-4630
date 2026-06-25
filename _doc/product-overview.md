@@ -1,4 +1,7 @@
-# Cafe Landing Page — Product Overview
+# Brew & Co — Cafe Landing Page
+
+## Product Name
+**Brew & Co**
 
 ## What It Is
 A single-page marketing landing website for an independent cafe shop specialising in coffee. Visitors land on one clean page that tells the cafe's story, showcases its menu highlights, and gives them everything they need to visit or get in touch. No multi-page navigation, no e-commerce complexity — one focused, high-quality digital front door.
