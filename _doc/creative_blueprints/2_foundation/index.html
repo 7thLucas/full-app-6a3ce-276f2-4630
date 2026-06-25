@@ -10,54 +10,68 @@
   <div class="sl-layout flex h-full">
 
     <!-- Left: The Problem -->
-    <div class="sl-problem flex flex-col justify-center p-10" style="background:#fafaf9;">
+    <div class="sl-problem flex flex-col justify-center p-10"
+         style="background:{{config.brandColor.background}};">
       <div class="mb-2">
-        <span class="inline-block text-xs tracking-widest uppercase font-bold px-3 py-1 rounded-full mb-5" style="background:#fee2e2; color:#991b1b;">The Problem</span>
-        <h2 class="text-3xl font-bold leading-snug mb-4" style="color:#1c1917;">
+        <span class="inline-block text-xs tracking-widest uppercase font-bold px-3 py-1 rounded-full mb-5"
+              style="background:#fee2e2; color:{{config.brandColor.destructive}};">The Problem</span>
+        <h2 class="text-3xl font-bold leading-snug mb-4"
+            style="color:{{config.brandColor.foreground}}; font-family:{{config.font.headingFont}},serif;">
           Great cafes stay<br/>invisible online
         </h2>
-        <p class="text-sm leading-relaxed mb-6" style="color:#57534e;">
+        <p class="text-sm leading-relaxed mb-6"
+           style="color:{{config.brandColor.mutedForeground}}; font-family:{{config.font.textFont}},sans-serif;">
           Your coffee is exceptional — but without a web presence, potential customers walk past without ever knowing you exist. Word of mouth only reaches so far.
         </p>
       </div>
       <ul class="flex flex-col gap-3">
-        <li class="flex items-start gap-3 text-sm" style="color:#57534e;">
-          <span class="mt-0.5 font-bold" style="color:#dc2626;">✗</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.mutedForeground}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.destructive}};">✗</span>
           <span>No searchable web presence — you don't show up when people look</span>
         </li>
-        <li class="flex items-start gap-3 text-sm" style="color:#57534e;">
-          <span class="mt-0.5 font-bold" style="color:#dc2626;">✗</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.mutedForeground}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.destructive}};">✗</span>
           <span>Customers can't quickly find hours, location, or menu</span>
         </li>
-        <li class="flex items-start gap-3 text-sm" style="color:#57534e;">
-          <span class="mt-0.5 font-bold" style="color:#dc2626;">✗</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.mutedForeground}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.destructive}};">✗</span>
           <span>First impression is a generic map pin — no brand, no warmth</span>
         </li>
       </ul>
     </div>
 
     <!-- Right: The Solution -->
-    <div class="sl-solution flex flex-col justify-center p-10" style="background:#2c1503;">
+    <div class="sl-solution flex flex-col justify-center p-10"
+         style="background:{{config.brandColor.navbarBackground}};">
       <div class="mb-2">
-        <span class="inline-block text-xs tracking-widest uppercase font-bold px-3 py-1 rounded-full mb-5" style="background:#78350f; color:#fde68a;">The Solution</span>
-        <h2 class="text-3xl font-bold leading-snug mb-4" style="color:#ffffff;">
+        <span class="inline-block text-xs tracking-widest uppercase font-bold px-3 py-1 rounded-full mb-5"
+              style="background:{{config.brandColor.primary}}; color:{{config.brandColor.card}};">The Solution</span>
+        <h2 class="text-3xl font-bold leading-snug mb-4"
+            style="color:{{config.brandColor.primaryForeground}}; font-family:{{config.font.headingFont}},serif;">
           One polished page<br/>that works 24 / 7
         </h2>
-        <p class="text-sm leading-relaxed mb-6" style="color:#fde68a; opacity:0.85;">
+        <p class="text-sm leading-relaxed mb-6"
+           style="color:{{config.brandColor.card}}; font-family:{{config.font.textFont}},sans-serif; opacity:0.85;">
           A single-page landing site that showcases your cafe, your coffee, and your story — always on, always welcoming, drawing customers straight to your door.
         </p>
       </div>
       <ul class="flex flex-col gap-3">
-        <li class="flex items-start gap-3 text-sm" style="color:#fde68a;">
-          <span class="mt-0.5 font-bold" style="color:#f59e0b;">✓</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.card}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.accent}};">✓</span>
           <span>Instant visibility on search &amp; social media</span>
         </li>
-        <li class="flex items-start gap-3 text-sm" style="color:#fde68a;">
-          <span class="mt-0.5 font-bold" style="color:#f59e0b;">✓</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.card}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.accent}};">✓</span>
           <span>Menu highlights and opening hours front-and-centre</span>
         </li>
-        <li class="flex items-start gap-3 text-sm" style="color:#fde68a;">
-          <span class="mt-0.5 font-bold" style="color:#f59e0b;">✓</span>
+        <li class="flex items-start gap-3 text-sm"
+            style="color:{{config.brandColor.card}}; font-family:{{config.font.textFont}},sans-serif;">
+          <span class="mt-0.5 font-bold" style="color:{{config.brandColor.accent}};">✓</span>
           <span>Beautiful, mobile-ready — as warm as the cafe itself</span>
         </li>
       </ul>
