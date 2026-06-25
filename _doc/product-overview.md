@@ -1,0 +1,1 @@
+create me a simple landing page for cafe shop selling coffee single page only
