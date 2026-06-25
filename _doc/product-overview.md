@@ -24,10 +24,11 @@ Warm, artisanal, and approachable. The landing page mirrors the in-cafe experien
 
 ## Core Sections (Single Page Structure)
 1. **Hero** — Bold headline, tagline, and a striking coffee/cafe visual. Primary CTA ("Find Us" or "See the Menu").
-2. **Menu Highlights** — Signature coffee offerings and seasonal specials, presented visually.
+2. **Menu Highlights** — Signature coffee offerings and seasonal specials, presented visually with category filter tabs. Each card shows image, category badge, name, description, and price.
 3. **Our Story** — A brief, personal narrative about the cafe's origins, philosophy, and what makes the coffee worth the trip.
-4. **Visit Us** — Address, opening hours, and a link for directions.
-5. **Contact & Social** — Simple contact prompt and links to social channels.
+4. **Gallery** — Masonry-style image grid showcasing the cafe, the drinks, and the atmosphere (toggled via `showGallerySection` flag in configurables).
+5. **Visit Us** — Address, opening hours (structured table), phone, email, and optional map embed (`showMapEmbed` flag).
+6. **Contact & Social** — Simple contact prompt and links to social channels (Instagram, Facebook, X).
 
 ## Strategic Principles
 - **One goal, one page**: every element serves the visitor's decision to walk through the door (or pick up the phone).
